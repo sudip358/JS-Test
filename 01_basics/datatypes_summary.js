@@ -22,7 +22,7 @@ const bigNumber = 211151n
 
 //non primitive - call by reference
 
-// array objects functions array objects functions
+// array objects functions 
 
 const heros = ["shak", "nagraj", "doga"]
 let myObj = { 
@@ -38,3 +38,13 @@ console.log("hello");
 console.log(typeof bigNumber);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// stack - all primitive
+// heap - non primitive
+
+
+
+let myName = "hi"
+let anothername = myutube
+console.log(anothername);
