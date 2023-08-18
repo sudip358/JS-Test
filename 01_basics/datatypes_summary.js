@@ -32,10 +32,10 @@ let myObj = {
 }
 
 const myFunction = function() {
-console.log("hello");    
+//console.log("hello");    
 }
 
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -46,5 +46,22 @@ console.log(typeof bigNumber);
 
 
 let myName = "hi"
-let anothername = myutube
+let anothername = myName
+anothername = "chai"
+
+console.log(myName);
 console.log(anothername);
+
+let user = {
+    email: "afgfh@gmail.com",
+    upi: "user@upi"       
+}
+
+let usertwo = user
+
+usertwo.email = "b@gmail.com"
+
+console.log(user.email);
+
+console.log(usertwo.email);
+
