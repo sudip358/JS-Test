@@ -40,7 +40,7 @@ const obj3 = {...obj1, ...obj2}
 
 // 90% of time we willuse this syntax
 
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -57,13 +57,13 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
 
 
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProp(tinderUser));
+// console.log(Object.hasOwnProp(tinderUser));
 
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
@@ -72,7 +72,7 @@ console.log(Object.hasOwnProp(tinderUser));
 
 
 
-
+// destrcuting object
 
 
 const course = {
@@ -81,6 +81,33 @@ const course = {
     courseInstrctor: "hit"
 }
 
-const {courseInstrctor} = course
-console.log(courseInstrctor);
+const {courseInstrctor: sir} = course
+
+// above code is use to extract course instrctor from course
+
+//console.log(courseInstrctor);
+
+//console.log(sir);
+
+// foll info is for react
+//const navbar =  ({company}) => {
+
+
+//}
+
+//navbar()
+
+
+//API
+
+// {
+//     name: "sud",
+//     cname: "hi",
+//     price: "free"
+// }
+
+// https://api.github.com/users/hiteshchoudhary
+
+
+
 
