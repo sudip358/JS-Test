@@ -70,3 +70,17 @@ console.log(Object.hasOwnProp(tinderUser));
 
 
 
+
+
+
+
+
+const course = {
+    coursename: "jshindi",
+    price: "1",
+    courseInstrctor: "hit"
+}
+
+const {courseInstrctor} = course
+console.log(courseInstrctor);
+
